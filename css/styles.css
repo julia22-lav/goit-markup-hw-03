@@ -1,0 +1,201 @@
+/*
+Font-family:
+Logo:Raleway 700
+Text: Roboto 400, 500, 700
+*/
+
+/*
+Palette:
+title-color:#212121;
+text-colour:#757575;
+white-color:#FFFFFF;
+accent-color:#2196F3;
+*/
+
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--white-color);
+
+  font-family: roboto, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Logo */
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--accent-color);
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.studio {
+  color: var(--title-color);
+}
+
+.studio-footer {
+  color: var(--white-color);
+}
+
+.logo:hover {
+  background-color: blueviolet;
+}
+
+/* Site-nav */
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--title-color);
+}
+
+.site-nav .link {
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Section */
+.section-title {
+  color: var(--title-color);
+}
+
+/* Hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+  background-color: brown;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Work and Advantages */
+.advantage-title,
+.work-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.advantage-text,
+.contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Team */
+.team {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Footer */
+.footer {
+  background: #2f303a;
+  color: var(--white-color);
+}
+
+.footer .link {
+  color: var(--white-color);
+}
+
+.call {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Styles for Portfolio */
+
+.button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  color: var(--title-color);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.project-type {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.88;
+
+  color: var(--text-color);
+}
+
+.project-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
