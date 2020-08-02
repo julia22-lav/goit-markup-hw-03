@@ -13,11 +13,12 @@
 
 <body>
   <header class="page-header">
-    <div class="container flexbox">
-      <nav class="navigation">
+    <div class="container flexbox page-content">
+      
         <a class="logo link" href="./">
           <span class="web"> Web </span>
           <span class="studio">Studio</span></a>
+          <nav class="navigation">
         <ul class="site-nav list menu-list">
           <li class="menu-item">
             <a href="#" class="link current">Студия</a>
@@ -28,21 +29,21 @@
           <li class="menu-item"><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a>
-      <a href="+380961111111" class="tel-link">+38 096 111 11 11</a>
+      <div><a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a>
+      <a href="tel:+380961111111" class="tel-link">+38 096 111 11 11</a></div>
     </div>
   </header>
   <main>
     <section class="hero">
-      <div class="container">
+      
         <h1 class="hero-title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
         <a class="button link" href="#">Заказать услугу</a>
-      </div>
+      
     </section>
-    <section class="section advantage">
+    <section class="section section-padding advantage">
       <div class="container flexbox">
         <h2 class="section-title visually-hidden">Наши преимущества</h2>
         <ul class="list advantage-list">
@@ -77,7 +78,7 @@
         </ul>
       </div>
     </section>
-    <section class="section occupations">
+    <section class="section padding-bottom occupations">
       <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="list occupations-list">
@@ -96,7 +97,7 @@
         </ul>
       </div>
     </section>
-    <section class="section members">
+    <section class="section team-background section-padding members">
       <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list members-list">
@@ -104,7 +105,7 @@
             <img src="./images/team-1.jpg" alt="Николай Кучеренко" />
             <h3 class="team">Николай Кучеренко</h3>
             <p class="team-position" lang="en">Product Designer</p>
-            <ul>
+            <ul class="socials-list list">
               <li>
                 <a href="#" aria-label="ссылка Instagram">Instagram</a>
               </li>
@@ -123,7 +124,7 @@
             <img src="./images/team-2.jpg" alt="Ольга Иванова" />
             <h3 class="team">Ольга Иванова</h3>
             <p class="team-position" lang="en">Frontend Developer</p>
-            <ul>
+            <ul class= "socials-list list">
               <li>
                 <a href="#" aria-label="ссылка Instagram">Instagram</a>
               </li>
@@ -142,7 +143,7 @@
             <img src="./images/team-3.jpg" alt="Андрей Шевченко" />
             <h3 class="team">Андрей Шевченко</h3>
             <p class="team-position" lang="en">Marketing</p>
-            <ul>
+            <ul class= "socials-list list">
               <li>
                 <a href="#" aria-label="ссылка Instagram">Instagram</a>
               </li>
@@ -161,7 +162,7 @@
             <img src="./images/team-4.jpg" alt="Иван Николаев" />
             <h3 class="team">Иван Николаев</h3>
             <p class="team-position" lang="en">UI Designer</p>
-            <ul>
+            <ul class= "socials-list list">
               <li>
                 <a href="#" aria-label="ссылка Instagram">Instagram</a>
               </li>
@@ -179,7 +180,7 @@
         </ul>
       </div>
     </section>
-    <section class="section clients">
+    <section class="section clients section-padding">
       <div class="container">
         <h2 class="section-title">Постоянные клиенты</h2>
         <ul class="list clients-list">
@@ -208,18 +209,18 @@
   <footer class="footer">
     <div class="container footer-flex">
       <div class="footer-info">
-        <a class="link logo" href="./"><span class="web"> Web </span>
+        <a class="link logo logo-footer" href="./"><span class="web"> Web </span>
           <span class="studio-footer"> Studio </span></a>
         <address>
           <ul class="list contacts">
-            <li>
+            <li class="contacts-item">
               <a href="https://goo.gl/maps/ffvtFqzXijoDNauG9" target="_blank" rel="noopener noreferrer" class="link">г.
                 Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li>
+            <li class="contacts-item">
               <a href="mailto:info@example.com " class="link">info@example.com</a>
             </li>
-            <li>
+            <li class="contacts-item">
               <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
             </li>
           </ul>
@@ -227,22 +228,22 @@
       </div>
       <div class="footer-join">
         <p class="call">Присоединяйтесь</p>
-        <ul>
+        <ul class="join-list">
           <li>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+            <a class="link list" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
               aria-label="ссылка Инстаграм">Instagram
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Твиттер">
+            <a  class="link list" href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Твиттер">
               Twitter</a>
           </li>
           <li>
-            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Фейсбук">
+            <a class="link list" href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Фейсбук">
               Facebook</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+            <a class="link list" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
               aria-label="ссылка Линкедин">LinkedIn
             </a>
           </li>
