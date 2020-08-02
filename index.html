@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студия</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Студия</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container flexbox">
+      <nav class="navigation">
         <a class="logo link" href="./">
           <span class="web"> Web </span>
-          <span class="studio">Studio</span></a
-        >
-        <ul class="site-nav list">
-          <li><a href="#" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="#" class="link">Контакты</a></li>
+          <span class="studio">Studio</span></a>
+        <ul class="site-nav list menu-list">
+          <li class="menu-item">
+            <a href="#" class="link current">Студия</a>
+          </li>
+          <li class="menu-item">
+            <a href="./portfolio.html" class="link">Портфолио</a>
+          </li>
+          <li class="menu-item"><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <div><a href="mailto:info@devstudio.com">info@devstudio.com</a></div>
-      <div><a href="+380961111111">+38 096 111 11 11</a></div>
-    </header>
-    <main>
-      <section class="hero">
+      <a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a>
+      <a href="+380961111111" class="tel-link">+38 096 111 11 11</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
         <h1 class="hero-title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
         <a class="button link" href="#">Заказать услугу</a>
-      </section>
-      <section class="section">
-        <h2 class="section-title">Наши преимущества</h2>
-        <ul class="list advantage">
-          <li>
+      </div>
+    </section>
+    <section class="section advantage">
+      <div class="container flexbox">
+        <h2 class="section-title visually-hidden">Наши преимущества</h2>
+        <ul class="list advantage-list">
+          <li class="advantage-item">
             <h3 class="advantage-title">Внимание к деталям</h3>
             <p class="advantage-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="advantage-item">
             <h3 class="advantage-title">Пунктуальность</h3>
             <p class="advantage-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
+              Задача организации, в особенности же рамки и место обучения
+              кадров влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="advantage-item">
             <h3 class="advantage-title">Планирование</h3>
             <p class="advantage-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="advantage-item">
             <h3 class="advantage-title">Современные технологии</h3>
             <p class="advantage-text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -67,31 +75,32 @@
             </p>
           </li>
         </ul>
-      </section>
-      <section class="section">
+      </div>
+    </section>
+    <section class="section occupations">
+      <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
+        <ul class="list occupations-list">
+          <li class="occupations-item">
             <img src="./images/desktop-app.png" alt="Десктопные приложения" />
             <p class="work-title">Десктопные приложения</p>
           </li>
-          <li>
+          <li class="occupations-item">
             <img src="./images/mobile-app.png" alt="Мобильные приложения" />
             <p class="work-title">Мобильные приложения</p>
           </li>
-          <li>
-            <img
-              src="./images/design-solution.png"
-              alt="Дизайнерские решения"
-            />
+          <li class="occupations-item">
+            <img src="./images/design-solution.png" alt="Дизайнерские решения" />
             <p class="work-title">Дизайнерские решения</p>
           </li>
         </ul>
-      </section>
-      <section class="section">
+      </div>
+    </section>
+    <section class="section members">
+      <div class="container">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
-          <li>
+        <ul class="list members-list">
+          <li class="members-item">
             <img src="./images/team-1.jpg" alt="Николай Кучеренко" />
             <h3 class="team">Николай Кучеренко</h3>
             <p class="team-position" lang="en">Product Designer</p>
@@ -102,7 +111,7 @@
               <li>
                 <a href="#" aria-label="ссылка Twitter">Twitter</a>
               </li>
-              <li>
+              <li class=>
                 <a href="#" aria-label="ссылка Facebook">Facebook</a>
               </li>
               <li>
@@ -110,7 +119,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="members-item">
             <img src="./images/team-2.jpg" alt="Ольга Иванова" />
             <h3 class="team">Ольга Иванова</h3>
             <p class="team-position" lang="en">Frontend Developer</p>
@@ -129,7 +138,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="members-item">
             <img src="./images/team-3.jpg" alt="Андрей Шевченко" />
             <h3 class="team">Андрей Шевченко</h3>
             <p class="team-position" lang="en">Marketing</p>
@@ -148,7 +157,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="members-item">
             <img src="./images/team-4.jpg" alt="Иван Николаев" />
             <h3 class="team">Иван Николаев</h3>
             <p class="team-position" lang="en">UI Designer</p>
@@ -168,96 +177,84 @@
             </ul>
           </li>
         </ul>
-      </section>
-      <section class="section">
+      </div>
+    </section>
+    <section class="section clients">
+      <div class="container">
         <h2 class="section-title">Постоянные клиенты</h2>
-        <ul class="list">
-          <li>
+        <ul class="list clients-list">
+          <li class="clients-item">
             <img src="./images/client-1.png" alt="Client-1" />
           </li>
-          <li>
+          <li class="clients-item">
             <img src="./images/client-2.png" alt="Client-2" />
           </li>
-          <li>
+          <li class="clients-item">
             <img src="./images/client-3.png" alt="Client-3" />
           </li>
-          <li>
+          <li class="clients-item">
             <img src="./images/client-4.png" alt="Client-4" />
           </li>
-          <li>
+          <li class="clients-item">
             <img src="./images/client-5.png" alt="Client-5" />
           </li>
-          <li>
+          <li class="clients-item">
             <img src="./images/client-6.png" alt="Client-6" />
           </li>
         </ul>
-      </section>
-    </main>
-    <footer class="footer">
-      <a class="link logo" href="./"
-        ><span class="web"> Web </span>
-        <span class="studio-footer"> Studio </span></a
-      >
-      <address>
-        <ul class="list contacts">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-flex">
+      <div class="footer-info">
+        <a class="link logo" href="./"><span class="web"> Web </span>
+          <span class="studio-footer"> Studio </span></a>
+        <address>
+          <ul class="list contacts">
+            <li>
+              <a href="https://goo.gl/maps/ffvtFqzXijoDNauG9" target="_blank" rel="noopener noreferrer" class="link">г.
+                Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li>
+              <a href="mailto:info@example.com " class="link">info@example.com</a>
+            </li>
+            <li>
+              <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="footer-join">
+        <p class="call">Присоединяйтесь</p>
+        <ul>
           <li>
-            <a
-              href="https://goo.gl/maps/ffvtFqzXijoDNauG9"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+              aria-label="ссылка Инстаграм">Instagram
+            </a>
           </li>
           <li>
-            <a href="mailto:info@example.com " class="link">info@example.com</a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Твиттер">
+              Twitter</a>
           </li>
           <li>
-            <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Фейсбук">
+              Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+              aria-label="ссылка Линкедин">LinkedIn
+            </a>
           </li>
         </ul>
-      </address>
-      <p class="call">Присоединяйтесь</p>
-      <ul>
-        <li>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="ссылка Инстаграм"
-            >Instagram
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="ссылка Твиттер"
-          >
-            Twitter</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="ссылка Фейсбук"
-          >
-            Facebook</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="ссылка Линкедин"
-            >LinkedIn
-          </a>
-        </li>
-      </ul>
-    </footer>
-  </body>
+      </div>
+      <div class="subscribe">
+        <p>Подпишитесь на рассылку</p>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
+
